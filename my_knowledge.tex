@@ -1,7 +1,11 @@
 \documentclass[12pt]{book}
 \usepackage{hyperref} % Add hyperreferences in the text
 \usepackage{minitoc} % Create table of contents for each chapter
+\usepackage{biblatex} % Create bibliography
 \usepackage{subfiles} % Import content in another .tex files
+
+
+\addbibresource{philosophy/bibliography.bib}
 
 \begin{document}
 \subfile{titlepage.tex}
@@ -15,5 +19,7 @@
 Foo introduction text.
 
 \subfile{philosophy/philosophy.tex}
+
+\printbibliography
 
 \end{document}
