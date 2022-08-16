@@ -1,5 +1,14 @@
 \documentclass[12pt]{book}
+\usepackage{hyperref}
+\usepackage{subfiles}
 
 \begin{document}
-Foo document text
+\subfile{titlepage.tex}
+
+\chapter{Introduction}
+\newpage
+Foo introduction text.
+
+\subfile{philosophy/philosophy.tex}
+
 \end{document}
