@@ -1,0 +1,12 @@
+find . -name '*.aux' -delete
+find . -name '*.bbl' -delete
+find . -name '*.bcf' -delete
+find . -name '*.blg' -delete
+find . -name '*.log' -delete
+find . -name '*.maf' -delete
+find . -name '*.mtc' -delete
+find . -name '*.mtc*' -delete
+find . -name '*.out' -delete
+find . -name '*.xml' -delete
+find . -name '*.synctex.gz' -delete
+find . -name '*.toc' -delete
