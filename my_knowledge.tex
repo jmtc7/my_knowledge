@@ -1,9 +1,14 @@
 \documentclass[12pt]{book}
-\usepackage{hyperref}
-\usepackage{subfiles}
+\usepackage{hyperref} % Add hyperreferences in the text
+\usepackage{minitoc} % Create table of contents for each chapter
+\usepackage{subfiles} % Import content in another .tex files
 
 \begin{document}
 \subfile{titlepage.tex}
+
+\setcounter{tocdepth}{1} % Print only chapters and sections in the table of contents
+\dominitoc
+\tableofcontents
 
 \chapter{Introduction}
 \newpage
